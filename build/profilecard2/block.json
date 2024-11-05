@@ -1,0 +1,173 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/profilecard2",
+  "version": "0.1.0",
+  "title": "Profile Card2",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Example block scaffolded with Create Block tool.",
+  "parent": [
+    "create-block/profilecard"
+  ],
+  "attributes": {
+    "style": {
+      "type": "string"
+    },
+    "contentBgColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "nameContent": {
+      "type": "string",
+      "default": "Md Jobayer"
+    },
+    "roleContent": {
+      "type": "string",
+      "default": "Developer"
+    },
+    "paraContent": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi."
+    },
+    "pronumContent": {
+      "type": "string",
+      "default": "1.5k"
+    },
+    "profollowContent": {
+      "type": "string",
+      "default": "Posts"
+    },
+    "profollowContent2": {
+      "type": "string",
+      "default": "2.5k"
+    },
+    "profollowContent1": {
+      "type": "string",
+      "default": "Followers"
+    },
+    "profollowContent3": {
+      "type": "string",
+      "default": "1.7k"
+    },
+    "profollowContent4": {
+      "type": "string",
+      "default": "Following"
+    },
+    "image": {
+      "type": "object",
+      "default": {
+        "url": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=300&h=300&fit=crop"
+      },
+      "btnText": {
+        "type": "string",
+        "default": "Read More"
+      },
+      "proborRadius": {
+        "type": "number",
+        "default": 10
+      },
+      "headerBgColor": {
+        "type": "string",
+        "default": "#0000FF"
+      },
+      "headerHeight": {
+        "type": "number",
+        "default": 100
+      },
+      "picborderRadius": {
+        "type": "number",
+        "default": 10
+      },
+      "borderStyle": {
+        "type": "string",
+        "default": "solid"
+      },
+      "borderWidth": {
+        "type": "number",
+        "default": 1
+      },
+      "borderColor": {
+        "type": "string",
+        "default": "#000000"
+      },
+      "imWidth": {
+        "type": "number",
+        "default": 100
+      },
+      "imHeight": {
+        "type": "number",
+        "default": 100
+      },
+      "nameColor": {
+        "type": "string",
+        "default": "#000000"
+      },
+      "roleColor": {
+        "type": "string",
+        "default": "#000000"
+      },
+      "paraColor": {
+        "type": "string",
+        "default": "#000000"
+      },
+      "parafontSize": {
+        "type": "number",
+        "default": 12
+      },
+      "pafontSize": {
+        "type": "number",
+        "default": 12
+      },
+      "follColor": {
+        "type": "string",
+        "default": "#000000"
+      },
+      "numFontsize": {
+        "type": "number",
+        "default": 12
+      },
+      "numColor": {
+        "type": "string",
+        "default": "#000000"
+      },
+      "numWeight": {
+        "type": "string",
+        "default": "normal"
+      },
+      "btnColor": {
+        "type": "string",
+        "default": "#ffffff"
+      },
+      "btnBgColor": {
+        "type": "string",
+        "default": "#0000FF"
+      },
+      "btnfontSize": {
+        "type": "number",
+        "default": 12
+      },
+      "btnborderRadius": {
+        "type": "number",
+        "default": 5
+      },
+      "contentGrid": {
+        "type": "number",
+        "default": 2
+      },
+      "contentGridGap": {
+        "type": "number",
+        "default": 10
+      }
+    }
+  },
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "profilecard",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
